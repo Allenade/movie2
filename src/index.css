@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  padding: 0%;
+}
+#root {
+  display: flex;
+  flex-direction: column;
+}
+nav {
+  height: 12vh;
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: blue;
+  padding: 20px 36px;
+  box-shadow: 10px 10px 5px lightblue;
+}
+.nav--logo {
+  max-width: 100px;
+}
+.nav-logo {
+  max-width: 100px;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+}
+.hero--photo {
+  padding-top: 3%;
+  max-width: 100%;
+  align-self: center;
+}
+
+.card--list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  /* gap: 12%; */
+  gap: 100px;
+}
+.card-img {
+  height: 100%;
+  width: 100%;
+  background-size: contain;
+}
+.card {
+  width: 120%;
+  max-width: 400px;
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #ccc;
+  transition: transform 0.2s;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.search-bar-container {
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.search-bar-container input[type="text"] {
+  flex: 1;
+  border: none;
+  padding: 8px;
+  border-radius: 5px;
+  outline: none;
+}
+
+.search-bar-container button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+*/ .text {
+  display: flex;
+  justify-content: space-between;
+}
+.text h2 {
+  color: red;
+}
+main {
+  padding: 7% 14% 0 10%;
+  flex-grow: 1;
+}
+section {
+  padding: 9% 0 0 10%;
+}
+.card2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5%;
+}
+.card2-img {
+  max-width: 100%;
+  width: fit-content;
+}
+footer {
+  background-color: #007bff;
+  height: 15vh;
+  text-align: center;
+  font-size: 10px;
+}
